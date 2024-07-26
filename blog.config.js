@@ -25,7 +25,7 @@ const BLOG = {
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Culip', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的服务器管理', // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || 'Emm…', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.minecraftculip.us.kg', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Minecraft, 建站，我的世界，服务器', // 网站关键词 英文逗号隔开
 
@@ -161,7 +161,7 @@ const BLOG = {
   FACEBOOK_PAGE_ID: process.env.NEXT_PUBLIC_FACEBOOK_PAGE_ID || '', // Facebook Page ID 來啟用 messenger 聊天功能
   FACEBOOK_APP_ID: process.env.NEXT_PUBLIC_FACEBOOK_APP_ID || '', // Facebook App ID 來啟用 messenger 聊天功能 获取: https://developers.facebook.com/
 
-  BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '使用外国服务器', // 备案号 闽ICP备XXXXXXX
+  BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXXX
 
   // START********代码相关********
   // PrismJs 代码相关
